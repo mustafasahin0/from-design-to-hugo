@@ -1,4 +1,22 @@
+a {
+  text-decoration: none;
+}
+
 /* Common */
+.header-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 150px;
+  height: 150px;
+  font-size: 30px;
+  color: #F2CCB7;
+  background-color: #A80000;
+}
+
 /* End Common */
 /* Home */
 /* End Home */
