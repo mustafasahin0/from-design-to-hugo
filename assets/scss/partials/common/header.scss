@@ -1,5 +1,8 @@
 .header {
+    position: relative;
     height: 120px;
+    z-index: 99;
+    background-color: rgba(0,0,0, .81);
 }
 
 .header-container {
@@ -32,6 +35,6 @@
     &-item {
         font-size: 24px;
         font-family: 'Inter';
-        color: #010101;
+        color: #fff;
     }
 }
