@@ -1,0 +1,35 @@
+.blog-posts {
+    padding: 130px 0;
+    background-color: #F1F1F1;
+}
+
+.blog-posts-container {
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.blog-posts-title {
+
+}
+
+.blog-posts-items {
+
+}
+
+.blog-posts-card {
+    &-image {
+
+    }
+
+    &-title {
+        font-family: 'Inter';
+        font-size: 80px;
+        font-weight: 700;
+        color: #000;
+    }
+
+    &-date {
+
+    }
+}

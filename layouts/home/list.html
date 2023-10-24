@@ -1,10 +1,33 @@
-{{ define "main" }} 
-    <!-- welcome -->
-    {{ partial "home/welcome.html"  }}
-    <!-- /welcome -->
+{{ define "main" }}
+<!-- welcome -->
+{{ partial "home/welcome.html" }}
+<!-- /welcome -->
 
-    <!-- about -->
-    {{ partial "home/about.html"  }}
-    <!-- /about -->
+<!-- about -->
+{{ partial "home/about.html" }}
+<!-- /about -->
 
+<!-- projects -->
+{{ partial "home/projects.html" }}
+<!-- /projects --> 
+
+<!-- blogs -->
+{{ partial "home/blog.html" }}
+<!-- /blogs -->
+
+{{end}}
+
+{{define "scripts"}}
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
 {{end}}
